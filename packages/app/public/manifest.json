@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Composition Playground",
+  "short_name": "Composition",
+  "description": "Explore ratios and composition guides with a live camera preview.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "dir": "auto",
+  "prefer_related_applications": false,
+
+  "categories": ["photo", "utilities"],
+
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
