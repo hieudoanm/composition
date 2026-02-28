@@ -76,8 +76,8 @@ const RatioFrame: FC<{ ratio: number; overlay: OverlayMode }> = ({
 const CaptureButton = ({ onClick }: { onClick: () => void }) => (
   <button
     onClick={onClick}
-    className="btn btn-circle border-base-content flex h-20 w-20 items-center justify-center border-4 p-1 shadow-xl transition active:scale-95">
-    <div className="bg-primary border-base-200 h-full w-full rounded-full border-4" />
+    className="btn btn-circle border-base-content flex h-20 w-20 items-center justify-center border-2 p-1 shadow-xl transition active:scale-95">
+    <div className="bg-primary border-base-200 h-full w-full rounded-full border" />
   </button>
 );
 
