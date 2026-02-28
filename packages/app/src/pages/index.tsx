@@ -27,7 +27,9 @@ const RATIOS: RatioOption[] = [
 
 const PageTitle: FC = () => (
   <div className="w-full max-w-sm text-center">
-    <h1 className="text-2xl font-bold tracking-tight">Camera Playground</h1>
+    <h1 className="text-2xl font-bold tracking-tight">
+      Composition Playground
+    </h1>
     <p className="text-base-content/60 text-sm">
       Explore ratios & composition guides
     </p>
