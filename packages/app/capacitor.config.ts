@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.github.hieudoanm.colors',
-  appName: '@colors/frontend',
+  appId: 'io.github.hieudoanm.composition',
+  appName: 'Composition',
   webDir: '../../docs',
   android: { path: 'mobile/android' },
   ios: { path: 'mobile/ios' },
