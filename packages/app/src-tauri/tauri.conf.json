@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "@composition/app",
+  "productName": "Composition",
   "version": "0.0.1",
   "identifier": "io.github.hieudoanm.composition",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "@composition/app",
+        "title": "Composition",
         "width": 800,
         "height": 600,
         "resizable": true,
