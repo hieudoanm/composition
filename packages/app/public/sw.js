@@ -1,13 +1,13 @@
 self.addEventListener('install', (event) => {
-  console.info('event', event);
-  self.skipWaiting();
+	console.info('event', event);
+	self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
-  console.info('event', event);
-  self.clients.claim();
+	console.info('event', event);
+	self.clients.claim();
 });
 
 self.addEventListener('fetch', () => {
-  // Basic pass-through
+	// Basic pass-through
 });
