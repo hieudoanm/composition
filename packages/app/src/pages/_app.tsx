@@ -1,7 +1,7 @@
 import '@composition/styles/globals.css';
+import { HeadTemplate } from '../templates/HeadTemplate';
 import type { AppProps } from 'next/app';
 import { Geist, Geist_Mono } from 'next/font/google';
-import Head from 'next/head';
 import { FC, useEffect } from 'react';
 
 const geistSans = Geist({
@@ -23,11 +23,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <>
-      <Head>
-        <title>Composition</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="manifest" href="/manifest.json" />
-      </Head>
+      <HeadTemplate basic={{ title: 'Composition' }} />
       <div className={`${geistSans.className} ${geistMono.className}`}>
         <Component {...pageProps} />
       </div>
