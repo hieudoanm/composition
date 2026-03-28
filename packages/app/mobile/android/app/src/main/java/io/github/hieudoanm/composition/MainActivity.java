@@ -1,4 +1,4 @@
-package io.github.hieudoanm.colors;
+package io.github.hieudoanm.composition;
 
 import com.getcapacitor.BridgeActivity;
 
