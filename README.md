@@ -39,6 +39,9 @@ Composition is a focused project in this monorepo that delivers a practical tool
 - 💻 [CLI](https://github.com/hieudoanm/composition/releases)
 - 📱 [Mobile](https://github.com/hieudoanm/composition/releases)
 - 🖥️ [Desktop](https://github.com/hieudoanm/composition/releases)
+  - 🍎 [MacOS](https://github.com/hieudoanm/composition/releases/tag/macos-latest)
+  - 🐧 [Ubuntu](https://github.com/hieudoanm/composition/releases/tag/ubuntu-latest)
+  - 🪟 [Windows](https://github.com/hieudoanm/composition/releases/tag/windows-latest)
 
 ## 🛠️ 5. Development Stack
 
